@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, paper and scissor</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <h1>Play Rock, Paper, Scissors against the Computer.</h1>
+    <div class="content">
+        <div class="play-btns">
+            <button id="playrock" class="play-btn rock" value="Rock"><i class="fa-solid fa-hand-back-fist"></i></button>
+            <button id="playpaper" class="play-btn paper" value="Paper"><i class="fa-solid fa-hand"></i></button>
+            <button id="playscissors" class="play-btn scissors" value="Scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+        </div>
+        <div class="scoreDiv">
+            <div class="score1">
+                <h2>You</h2>
+                <p id="myscore">0</p>
+            </div>
+            <div class="score2">
+                <h2>Computer</h2>
+                <p id="computerscore">0</p>
+            </div>
+        </div>
+        <h2 id="score"></h2>
+        <h2 id="result"></h2>
+    </div>
+</body>
+</html>

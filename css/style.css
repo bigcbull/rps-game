@@ -1,0 +1,88 @@
+body {
+    margin:0;
+    background: #faf6df;
+}
+
+.play-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.play-btn {
+    padding: 30px 35px 30px 35px;
+    border:none;
+    color:#f6f6f6;
+    font-size: 60px;
+    border-radius: 50%;
+    box-shadow: 13px 15px 12px -11px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 13px 15px 12px -11px rgba(0,0,0,0.38);
+    -moz-box-shadow: 13px 15px 12px -11px rgba(0,0,0,0.38);
+}
+
+.play-btn:hover{
+    cursor: pointer;
+}
+.rock {
+    background: black;
+}
+
+.paper {
+    background: rgb(18, 39, 107);
+}
+
+.scissors {
+    background: rgb(78, 10, 10);
+}
+
+h1{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    font-family: 'Karla', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Karla', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+
+.scoreDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 65px;
+}
+
+#myscore {
+    font-family: 'Karla';
+    font-size: 40px;
+    font-weight: 900;
+    color:rgb(21, 187, 21);
+}
+
+#computerscore {
+    font-family: 'Karla';
+    font-size: 40px;
+    font-weight: 900;
+    color:rgb(187, 21, 21);
+}
+
+#result {
+    font-size:45px;
+}
+
+.lost {
+    color:rgb(187, 21, 21);
+}
+
+.won {
+    color:rgb(21, 187, 21);
+}
